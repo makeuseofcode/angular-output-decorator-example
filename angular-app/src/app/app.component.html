@@ -1,0 +1,6 @@
+<div class="parent-component">
+  <h1> This is the parent component </h1>
+  <app-data-component (buttonWasClicked)="buttonInChildComponentWasClicked($event)"></app-data-component>
+  <p>{{message}}</p>
+  <p>{{data.join(', ')}}</p>
+</div>
